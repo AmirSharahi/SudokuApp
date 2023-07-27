@@ -7,4 +7,8 @@ function getRandomNumber(max , min) {
 }
 console.log(getRandomNumber(9 , 1));
 
+let parent = getRandomBox();
+
+parent.parentNode.replaceChild(getRandomBox(),getRandomBox().innerHTML = '<a></a>');
+
 getRandomBox();
