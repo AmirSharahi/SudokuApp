@@ -18,9 +18,9 @@ nav{
     width: $half;
     height: 80%;
     background-color: transparent;
-    div{
-        width: $widthAndHeight;
-        height: $widthAndHeight;
+    .box{
+        width: 33%;
+        height: 33%;
         background-color: transparent;
         float: left;
         border: 1px solid black;
@@ -29,6 +29,11 @@ nav{
             transition: 0.2s;
         }
         background-color: white;
+    }
+    .mainbox{
+        @extend .box;
+        width: $widthAndHeight;
+        height: $widthAndHeight;
     }
 }
 .numbers{
