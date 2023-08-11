@@ -27,7 +27,6 @@ nav .box, nav .mainbox {
   border: 1px solid black;
   background-color: white;
   font-size: 30px;
-  
 }
 nav .box:hover, nav .mainbox:hover {
   border-color: rgb(101, 240, 113);
